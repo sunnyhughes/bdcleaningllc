@@ -23,15 +23,18 @@
 
 <body>
 	<header>
-		<h1>B&amp;D Cleaning Llc</h1>
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="about.html">About Us</a></li>
-				<li><a href="services.html">Our Services</a></li>
-				<li><a href="contact.html">Contact Us</a></li>
-			</ul>
-		</nav>
+		<h1>B&amp;D Cleaning LLC</h1>
+		<div class="topnav">
+			<a href="index.html" class="active">Home</a>
+				<div id="myLinks">
+				<a href="about.html">About Us</a>
+				<a href="services.html">Our Services</a>
+				<a href="contact.html">Contact Us</a>
+				</div>
+
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i></a>
+		</div>
 	</header>
 
 	<main>
@@ -74,11 +77,8 @@
 		<p>Contact us at <a href="mailto: ">bdcleaningllc@gmail.com</a><br>(502) 408-9989</p>
 		<p>&copy; 2023 bdcleaning-llc.com</p>
 	</footer>
-<script>
-	document.addEventListener('DOMContentLoaded', () => {		
-		console.log('Document is ready!');
-	});
-</script>
+	
+<script src="script.js"></script>
 
 </body>
 </html>

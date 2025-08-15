@@ -8,7 +8,7 @@
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
 	<meta name="description" content="Welcome to B&D Cleaning Llc, your trusted partner for all your cleaning needs. We offer professional cleaning services tailored to your requirements.">
 	<meta name="keywords" content="cleaning, professional cleaning, B&D Cleaning Llc, home cleaning, office cleaning, cleaning services">
-	<meta name="author" content="B&D Cleaning Llc">
+	<meta name="author" content="B&amp;D Cleaning Llc">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="theme-color" content="#ffffff">
 	<link rel="canonical" href="https://www.bdcleaningllc.com/">
@@ -23,15 +23,18 @@
 
 <body>
 	<header>
-		<h1>B&amp;D Cleaning Llc</h1>
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="about.html">About Us</a></li>
-				<li><a href="services.html">Our Services</a></li>
-				<li><a href="contact.html">Contact Us</a></li>
-			</ul>
-		</nav>
+		<h1>B&amp;D Cleaning LLC</h1>
+		<div class="topnav">
+			<a href="index.html" class="active">Home</a>
+				<div id="myLinks">
+				<a href="about.html">About Us</a>
+				<a href="services.html">Our Services</a>
+				<a href="contact.html">Contact Us</a>
+				</div>
+
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i></a>
+		</div>
 	</header>
 
 	<main>
@@ -51,11 +54,26 @@
 
 				<section>
 			<ul>
-				<li>Basic Service $99.00</li>
-				<li>Intermediate services $149.00</li>
-				<li>Advance Services $199.00</li>
-				<li>Premium Services $249.00</li>
-				<li>Custom Services Contact for Quote</li>
+				<div id="service-card">
+					<li>Basic Service $99.00</li>
+				<img src="" alt=""></div>
+				<div id="service-card">
+					<li>Intermediate services $149.00</li>
+					<img src="" alt="">
+				</div>
+				<div id="service-card">
+					<li>Advance Services $199.00</li>
+					<img src="" alt="">
+				</div>
+				<div>
+					<li>Premium Services $249.00</li>
+					<img src="" alt="">
+				</div>
+				<div>
+					<li>Custom Services Contact for Quote</li>
+					<img src="" alt="">
+				</div>
+				
 			</ul>
 		</section>
 
@@ -67,11 +85,7 @@
 		<p>&copy; 2023 bdcleaning-llc.com</p>
 	</footer>
 
-<script>
-	document.addEventListener('DOMContentLoaded', () => {
-		console.log('Document is ready!');
-	});
-</script>
+<script src="script.js"></script>
 
 </body>
 </html>
