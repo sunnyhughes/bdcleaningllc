@@ -2,6 +2,17 @@
 		console.log('Document is ready!');
 	});
 
-function toggleMenu() {
-  document.getElementById("myTopnav").classList.toggle("show");
+
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
 }
+
+ function toggleMenu() {
+      const nav = document.getElementById('myLinks');
+      nav.classList.toggle('show');
+    }
